@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <table>
+			<thead>
+				<tr>
+					<th>Numéro</th>
+					<th>Cinéma</th>
+					<th>Ville</th>
+				</tr>
+			</thead>
+			<% cinemas.forEach((c) => { %>
+				<tr>
+					<td><%= c.num_cine %></td>
+					<td><%= c.nom %></td>
+					<td><%= c.adresse %></td>
+				</tr>
+			<% }); %>
+		</table>
+  </body>
+</html>

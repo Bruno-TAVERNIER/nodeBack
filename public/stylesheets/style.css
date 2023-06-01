@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/* pour la vue EJS cinemas */
+h1 {
+  text-align: center;
+}
+table {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  padding: 5px;
+  background: black;
+  color: white;
+}
+td {
+  border-top: 1px solid black;
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background: #EAEAEA;
+}
